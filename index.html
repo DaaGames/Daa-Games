@@ -33,8 +33,15 @@
   </main>
 
   <footer>
-    Daa Games
+    <p class="copyright">
+      © <span class="year">2025</span> Daa Games. All rights reserved.
+    </p>
   </footer>
+
+  <script>
+    // Dynamically set the year in the copyright
+    document.querySelector('.year').textContent = new Date().getFullYear();
+  </script>
   
 </body>
 </html>
